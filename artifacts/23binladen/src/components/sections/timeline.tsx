@@ -19,7 +19,9 @@ export const Timeline = () => {
           </p>
         </motion.div>
 
-        <div className="relative border-l border-primary/30 ml-4 md:ml-0 md:left-1/2 md:-translate-x-[0.5px]">
+        <div className="relative ml-4 md:ml-0">
+          {/* Center line */}
+          <div className="absolute top-0 bottom-0 left-0 md:left-1/2 md:-translate-x-1/2 w-px bg-primary/30 pointer-events-none" aria-hidden="true" />
           {TIMELINE.map((yearGroup, idx) => (
             <motion.div
               key={yearGroup.year}
@@ -27,14 +29,12 @@ export const Timeline = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className={`relative mb-16 sm:mb-24 flex flex-col md:flex-row ${
-                idx % 2 === 0 ? 'md:flex-row-reverse' : ''
-              } group`}
+              className="relative mb-16 sm:mb-24 md:grid md:grid-cols-2 group"
             >
               {/* Pulse Dot */}
               <div className="absolute left-[-5px] md:left-1/2 top-0 md:-translate-x-1/2 w-3 h-3 bg-black border-2 border-primary rounded-full group-hover:bg-primary transition-colors z-10 shadow-[0_0_10px_rgba(255,0,0,0.8)]" />
               
-              <div className="ml-8 md:ml-0 md:w-1/2 px-4 sm:px-8">
+              <div className={`relative ml-8 md:ml-0 px-4 sm:px-8 ${idx % 2 === 0 ? 'md:col-start-1' : 'md:col-start-2'}`}>
                 {/* Large Year Number */}
                 <div className={`text-6xl sm:text-8xl font-display text-white/5 tracking-tighter absolute top-0 ${
                   idx % 2 === 0 ? 'md:right-8 left-8 md:left-auto' : 'left-8'
