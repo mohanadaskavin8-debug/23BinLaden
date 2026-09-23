@@ -1,45 +1,47 @@
-# [Project name]
+# 23 Bin Laden — Artist Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A modern, responsive artist website designed and developed for **23 Bin Laden**, creating a centralized digital platform for showcasing music, content, and brand identity.
 
-## Run & Operate
+## ✨ Features
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+* 🎵 Artist and music-focused content
+* 🎨 Custom visual design based around the artist's brand
+* 📱 Fully responsive experience across desktop, tablet, and mobile
+* 🔗 Social media and external platform integration
+* 🧭 Intuitive navigation and modern page layouts
+* ⚡ Fast and streamlined user experience
+* 🚀 Production-ready web experience
 
-## Stack
+## 🎯 Project Goals
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+The goal was to create a professional digital home for 23 Bin Laden that makes it easy for visitors and fans to discover the artist, explore their content, and connect with their online presence.
 
-## Where things live
+The website focuses on:
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+* Strong visual identity
+* Modern UI/UX
+* Responsive design
+* Clear content organization
+* Mobile usability
+* A cohesive artist-brand experience
 
-## Architecture decisions
+## 🛠️ Tech Stack
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+* **Frontend:** [Add framework]
+* **Language:** [Add language]
+* **Styling:** [Add styling technology]
+* **Deployment:** [Add hosting platform]
 
-## Product
+## 📸 Screenshots
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+*Add screenshots of the website here.*
 
-## User preferences
+## 👨‍💻 Development
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+I designed and developed the website from concept through deployment, handling the UI/UX, responsive layouts, content presentation, and overall digital experience.
 
-## Gotchas
+This project provided hands-on experience building a **real-world, client-facing product** while translating an artist's brand identity into a functional and engaging web experience.
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+---
 
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+**Built by Mohanadas Kavin**
