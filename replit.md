@@ -6,7 +6,7 @@ A modern, responsive artist website designed and developed for **23 Bin Laden**,
 
 * 🎵 Artist and music-focused content
 * 🎨 Custom visual design based around the artist's brand
-* 📱 Fully responsive experience across desktop, tablet, and mobile
+* 📱 Responsive experience across desktop, tablet, and mobile
 * 🔗 Social media and external platform integration
 * 🧭 Intuitive navigation and modern page layouts
 * ⚡ Fast and streamlined user experience
@@ -14,7 +14,7 @@ A modern, responsive artist website designed and developed for **23 Bin Laden**,
 
 ## 🎯 Project Goals
 
-The goal was to create a professional digital home for 23 Bin Laden that makes it easy for visitors and fans to discover the artist, explore their content, and connect with their online presence.
+The goal of this project was to create a professional digital home for 23 Bin Laden that makes it easy for visitors and fans to discover the artist, explore their content, and connect with their online presence.
 
 The website focuses on:
 
@@ -27,10 +27,12 @@ The website focuses on:
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** [Add framework]
-* **Language:** [Add language]
-* **Styling:** [Add styling technology]
-* **Deployment:** [Add hosting platform]
+* **Language:** TypeScript
+* **Package Manager:** pnpm
+* **Build System:** TypeScript / pnpm workspace
+* **Platform:** Replit
+* **Code Formatting:** Prettier
+* **Integrations:** Replit Connectors SDK
 
 ## 📸 Screenshots
 
